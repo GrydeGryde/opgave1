@@ -41,7 +41,7 @@ namespace opgave1.Tests
             _player.ShirtNumber = 5;
             Assert.AreEqual(5, _player.ShirtNumber);
 
-            Assert.ThrowsException<ArgumentOutOfRangeException>(() => _player.ShirtNumber = -1);
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => _player.ShirtNumber = 0);
 
             Assert.ThrowsException<ArgumentOutOfRangeException>(() => _player.ShirtNumber = 101);
 

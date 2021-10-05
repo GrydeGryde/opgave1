@@ -45,7 +45,7 @@ namespace opgave1
             get => _shirtNumber;
             set
             {
-                if ((value < 0) || (value > 100)) throw new ArgumentOutOfRangeException();
+                if ((value < 1) || (value > 100)) throw new ArgumentOutOfRangeException();
                 _shirtNumber = value;
             }
         }
