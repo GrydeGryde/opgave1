@@ -16,6 +16,10 @@ namespace opgave1
             _price = price;
             _shirtNumber = shirtNumber;
         }
+        public FootballPlayer()
+        {
+
+        }
         public int ID { get; set; }
 
         public string Name
